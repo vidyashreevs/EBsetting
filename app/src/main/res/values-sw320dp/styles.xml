@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+
+    </style>
+
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+
+    </style>-->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <dimen name="txt">10dp</dimen>
+
+    <dimen name="listtxt">10dp</dimen>
+
+    <dimen name="listimgwidth">100dp</dimen>
+    <dimen name="listimgheight">30dp</dimen>
+
+    <dimen name="gridview">30dp</dimen>
+
+//grid_item
+    <dimen name="llayout_height">150dp</dimen>
+    <dimen name="img_txt">12sp</dimen>
+    <dimen name="heading_txt">15sp</dimen>
+
+    //grid_item2
+    <dimen name="subheading_txt">14sp</dimen>
+    <dimen name="llayout_height1">150dp</dimen>
+    <dimen name="floor_txt">12sp</dimen>
+    <dimen name="subroom_txt">14sp</dimen>
+
+
+    <dimen name="changepw_tv_txt">14sp</dimen>
+    <dimen name="changepw_et_txt">14sp</dimen>
+    <dimen name="radiogrp_txt">10sp</dimen>
+    <dimen name="owanerinfo_txt">22sp</dimen>
+    <dimen name="subbtn_height">35dp</dimen>
+    <dimen name="subbtn_txt">10sp</dimen>
+
+</resources>
